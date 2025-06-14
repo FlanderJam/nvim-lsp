@@ -7,11 +7,12 @@ return function(deps)
   local server_settings = {
     meta_details = {
       ensure_installed = false, -- nu isn't on mason, so we don't want to force install it
+      skip_mason = true,
     },
     server_config = {
       cmd = { "nu", "--lsp" }, -- This pulls the lsp from the nu command running on the shell
       filetypes = { "nu" },
-      single_file_support = true,
+      -- single_file_support = true,
     }
   }
 

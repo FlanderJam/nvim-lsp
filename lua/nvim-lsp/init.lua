@@ -11,7 +11,7 @@ local servers = {
   'gopls',
   'html',
   'lua_ls',
-  'nu',
+  'nushell',
   'rust_analyzer',
   'svelte',
   'tailwindcss',

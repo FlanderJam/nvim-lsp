@@ -11,6 +11,7 @@
 ---
 ---@class ServerMetaDetails
 ---@field ensure_installed boolean
+---@field skip_mason boolean
 
 ---@class ServerConfig
 ---@field root_dir fun(bufnr: any, on_dir: any)|nil
