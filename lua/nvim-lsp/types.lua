@@ -24,3 +24,6 @@
 ---@field on_attach any|nil
 
 ---@alias ServerConfigMap table<string, ServerSettings>
+
+---@class FormatterMetaDetails
+---@field ensure_installed boolean
